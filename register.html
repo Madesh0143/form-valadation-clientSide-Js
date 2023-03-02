@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form validations</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+
+</head>
+<body> 
+    <div class="container">
+
+         <!-- FORM CONTAINER -->
+         
+        <div class="form__box">
+            <form class="form">
+                <div class="title" >SignUp Account</div>
+
+                <div class="form__div">
+                    <input 
+                    type="text" 
+                    class="username"
+                    placeholder="UserName" >
+                    <i class="ion-android-happy"></i>
+                    <i class="ion-android-sad"></i>
+                    <small>Error Message</small>
+                </div>
+                <div class="form__div">
+                    <input 
+                    type="text" 
+                    class="email" 
+                    placeholder="example@gmail.com">
+                    <i class="ion-android-happy"></i>
+                    <i class="ion-android-sad"></i>
+                    <small>Error Message</small>
+                </div>
+                <div class="form__div">
+                    <input 
+                    type="number" 
+                    class="mobile"
+                    placeholder="Mobile No..." >
+                    <i class="ion-android-happy"></i>
+                    <i class="ion-android-sad"></i>
+                    <small>Error Message</small>
+                </div>
+                <div class="form__div">
+                    <input 
+                    type="password" 
+                    class="password"
+                    placeholder="Password" >
+                    <i class="ion-android-happy"></i>
+                    <i class="ion-android-sad"></i>
+                    <small>Error Message</small>
+                </div>
+                <div class="form__div">
+                    <input 
+                    type="password" 
+                    class="cpassword"
+                    placeholder="Re Type.." >
+                    <i class="ion-android-happy"></i>
+                    <i class="ion-android-sad"></i>
+                    <small>Error Message</small>
+                </div>
+                <button type="submit" class="submit" >Submit</button>
+                
+            </form>
+        </div>
+
+             <!-- SUCCESS CONTAINER -->
+
+         <div class="success__container">
+            <div class="success__box">
+                <h2>Registration Successful</h2>
+                <p class="nameOutput"></p>
+                <button class="returneHome">Home</button>
+            </div>
+            <div class="heart_rain"></div>
+        </div>
+    </div>   
+    <script src="/Js/register.js"></script>
+</body>
+</html>
