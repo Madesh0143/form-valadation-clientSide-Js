@@ -19,6 +19,6 @@ II.Simple Code  <br/>
 III.Responsive Design <br/>
 IV.User Interface.. 
 
-<p align=center> THANK TO Y❤️UR KIND VISIT..</p>
+<p align=center> THANK TO Y❤️UR KIND VISIT...!</p>
 
 
